@@ -4,7 +4,8 @@ import java.util.Date;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
+import lombok.NoArgsConstructor;
+@NoArgsConstructor
 @Data
 @Entity
 @Table(name = "tutorial_details")

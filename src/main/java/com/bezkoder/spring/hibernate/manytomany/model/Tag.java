@@ -5,9 +5,11 @@ import java.util.Set;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 @Data
+@NoArgsConstructor
 @Entity
 @Table(name = "tags")
 public class Tag {
