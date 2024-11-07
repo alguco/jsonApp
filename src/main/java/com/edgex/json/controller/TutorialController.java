@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany.controller;
+package com.edgex.json.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.bezkoder.spring.hibernate.manytomany.exception.ResourceNotFoundException;
-import com.bezkoder.spring.hibernate.manytomany.model.Tutorial;
-import com.bezkoder.spring.hibernate.manytomany.repository.TutorialRepository;
+import com.edgex.json.exception.ResourceNotFoundException;
+import com.edgex.json.model.Tutorial;
+import com.edgex.json.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany.repository;
+package com.edgex.json.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import jakarta.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.bezkoder.spring.hibernate.manytomany.model.Comment;
+import com.edgex.json.model.Comment;
 
 
 public interface CommentRepository extends JpaRepository<Comment, Long> {

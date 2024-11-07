@@ -1,15 +1,15 @@
-package com.bezkoder.spring.hibernate.manytomany.controller;
+package com.edgex.json.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.bezkoder.spring.hibernate.manytomany.exception.ResourceNotFoundException;
-import com.bezkoder.spring.hibernate.manytomany.model.Tutorial;
-import com.bezkoder.spring.hibernate.manytomany.model.TutorialDetails;
-import com.bezkoder.spring.hibernate.manytomany.repository.TutorialDetailsRepository;
-import com.bezkoder.spring.hibernate.manytomany.repository.TutorialRepository;
+import com.edgex.json.exception.ResourceNotFoundException;
+import com.edgex.json.model.Tutorial;
+import com.edgex.json.model.TutorialDetails;
+import com.edgex.json.repository.TutorialDetailsRepository;
+import com.edgex.json.repository.TutorialRepository;
 
 
 

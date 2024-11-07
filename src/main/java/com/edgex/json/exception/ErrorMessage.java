@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany.exception;
+package com.edgex.json.exception;
 
 import java.util.Date;
 

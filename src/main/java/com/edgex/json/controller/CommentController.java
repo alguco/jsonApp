@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany.controller;
+package com.edgex.json.controller;
 
 import java.util.List;
 
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.hibernate.manytomany.exception.ResourceNotFoundException;
-import com.bezkoder.spring.hibernate.manytomany.model.Comment;
-import com.bezkoder.spring.hibernate.manytomany.repository.CommentRepository;
-import com.bezkoder.spring.hibernate.manytomany.repository.TutorialRepository;
+import com.edgex.json.exception.ResourceNotFoundException;
+import com.edgex.json.model.Comment;
+import com.edgex.json.repository.CommentRepository;
+import com.edgex.json.repository.TutorialRepository;
 
 
 

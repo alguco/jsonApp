@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany.model;
+package com.edgex.json.model;
 
 import java.util.HashSet;
 import java.util.Set;

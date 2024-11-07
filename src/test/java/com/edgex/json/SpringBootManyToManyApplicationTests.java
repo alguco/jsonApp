@@ -1,4 +1,4 @@
-package com.bezkoder.spring.hibernate.manytomany;
+package com.edgex.json;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

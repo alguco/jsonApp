@@ -1,11 +1,11 @@
-package com.bezkoder.spring.hibernate.manytomany.repository;
+package com.edgex.json.repository;
 
 import jakarta.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.bezkoder.spring.hibernate.manytomany.model.TutorialDetails;
+import com.edgex.json.model.TutorialDetails;
 
 
 

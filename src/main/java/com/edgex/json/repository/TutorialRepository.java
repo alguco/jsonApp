@@ -1,10 +1,10 @@
-package com.bezkoder.spring.hibernate.manytomany.repository;
+package com.edgex.json.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.bezkoder.spring.hibernate.manytomany.model.Tutorial;
+import com.edgex.json.model.Tutorial;
 
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
   List<Tutorial> findByPublished(boolean published);
