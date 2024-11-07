@@ -15,7 +15,7 @@ import com.edgex.json.repository.TagRepository;
 import com.edgex.json.repository.TutorialRepository;
 
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "*")//@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api")
 public class TagController {

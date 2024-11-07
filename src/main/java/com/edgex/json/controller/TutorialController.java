@@ -12,7 +12,7 @@ import com.edgex.json.exception.ResourceNotFoundException;
 import com.edgex.json.model.Tutorial;
 import com.edgex.json.repository.TutorialRepository;
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "*")//@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {

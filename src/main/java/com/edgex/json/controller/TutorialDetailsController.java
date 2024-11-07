@@ -13,7 +13,7 @@ import com.edgex.json.repository.TutorialRepository;
 
 
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")//@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class TutorialDetailsController {
